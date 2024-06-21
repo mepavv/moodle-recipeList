@@ -1,0 +1,21 @@
+.slick-prev, .slick-next {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slick-dots li button {
+  width: 8px;
+  height: 8px;
+  padding: 4px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.slick-dots li.slick-active button {
+  background-color: white;
+}

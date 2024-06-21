@@ -1,0 +1,12 @@
+.header-main {
+  background-color: #0002de;
+  background-image: linear-gradient(90deg, #0002de 0%, #f711fb 50%, #ffffff 100%);
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .header-main {
+    padding: 10px;
+    background-size: cover;
+  }
+}

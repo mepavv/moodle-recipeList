@@ -1,0 +1,27 @@
+.sliding-table-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.pagination-container {
+  margin-top: auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-button {
+  margin: 0 4px;
+}
+
+@media (max-width: 600px) {
+  .sliding-table-container {
+    padding: 10px;
+  }
+
+  .pagination-button {
+    margin: 0 2px;
+    font-size: 12px;
+  }
+}
